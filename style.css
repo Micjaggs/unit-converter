@@ -12,4 +12,5 @@ body {
 
 #cnvrt-values-container {
     display: flex;
+    text-align: center;
 }
