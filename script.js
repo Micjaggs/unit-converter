@@ -17,20 +17,20 @@ cnvrtBtn.addEventListener("click", function() {
 
 
 function metersFeet() {
-    let equation = cnvrtInput.value * 3.28084
-    let equation2 = cnvrtInput.value / 3.28084
-    unitMeter.innerText = `${cnvrtInput.value}  meters = ${Math.round(equation)} feet | ${cnvrtInput.value} feet = ${equation2} meters`
+    let equation = Math.round((cnvrtInput.value * 3.28084) * 10) / 10 
+    let equation2 = Math.round((cnvrtInput.value / 3.28084) * 10) /10
+    unitMeter.innerText = `${cnvrtInput.value}  meters = ${equation} feet | ${cnvrtInput.value} feet = ${Math.round(equation2 * 10)/10} meters`
 }
 
 function litreGallons() {
-    let equation = cnvrtInput.value * 0.264172
-    let equation2 = cnvrtInput.value / 0.264172
+    let equation = Math.round((cnvrtInput.value * 0.26417) * 10) / 10 
+    let equation2 = Math.round((cnvrtInput.value / 0.264172) * 10) / 10
     unitLitre.innerText = `${cnvrtInput.value}  litres = ${equation} gallons | ${cnvrtInput.value} gallons = ${equation2} litres`
 }
 
 function kiloPounds() {
-    let equation = cnvrtInput.value * 2.2
-    let equation2 = cnvrtInput.value / 2.2
+    let equation = Math.round((cnvrtInput.value * 2.2) * 10) / 10
+    let equation2 = Math.round((cnvrtInput.value / 2.2) * 10) / 10
     unitKilo.innerText = `${cnvrtInput.value}  kilograms = ${equation} pounds | ${cnvrtInput.value} pounds = ${equation2} kilograms`
 }
  
