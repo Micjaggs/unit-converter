@@ -12,5 +12,11 @@ body {
 
 #cnvrt-values-container {
     display: flex;
+    flex-direction: row;
     text-align: center;
+}
+
+#value {
+    display: flex;
+    justify-content: space-between;
 }
