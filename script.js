@@ -8,6 +8,7 @@ let unitEl = document.getElementsByClassName("cnvrt-unit")
 
 
 cnvrtBtn.addEventListener("click", function() {
+    // add condition for if value is not number = if else etc
     for (let i = 0; i < unitEl.length; i ++) {
        metersFeet()
        litreGallons()
