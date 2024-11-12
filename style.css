@@ -74,10 +74,15 @@ p {
     height: 100%;
     width:100%;
     padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #value-1 {
-    padding: 20px;
+    padding: 10px;
+    padding-bottom: 30px;
     height: 40px;
     width: 80%;
     background-color: #273549;
@@ -86,7 +91,8 @@ p {
 }
 
 #value-2 {
-    padding: 20px;
+    padding: 10px;
+    padding-bottom: 30px;
     height: 40px;
     background-color: #273549;
     width: 80%;
@@ -94,9 +100,24 @@ p {
 }
 
 #value-3 {
-    padding: 20px;
+    padding: 10px;
+    padding-bottom: 30px;
     height: 40px;
     background-color: #273549;
     width: 80%;
     margin: 10px;
 }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+  }
+
+  *{
+    outline: 1px solid red;
+   }
