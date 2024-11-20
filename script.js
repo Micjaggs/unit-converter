@@ -36,11 +36,3 @@ function kiloPounds() {
 }
  
 
-// cnvrtBtn.addEventListener("click", metersFeet, litreGallons, kiloPounds)
-
-
-
-
-
-//multiply the given meter value by 3.28084 feet
-//gallons = 0.264172 × liters
